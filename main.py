@@ -27,13 +27,22 @@ def buttonLoop(buttons, lp):
         event = lp.ButtonStateXY()
         if len(event) > 0:
             x, y, state = event
+            b = buttons[x][y]
             if state:
+                lp.LedCtrlXY(x, y, 3, 3)
                 print(f"Button at {x}, {y} was pressed")
-                b = buttons[x][y]
                 if b:
-                    result = eval('actions.act' + b['action'] + '()')
+                    result = eval('actions.act' + b['actionPress'] + '()')
             else:
+                if b:
+                    lp.LedCtrlXY(x, y, b['color'][0], b['color'][1])
+                    result = eval('actions.act' + b['actionRelease'] + '()')
+                else:
+                    lp.LedCtrlXY(x, y, 0, 0)
                 print(f"Button at {x}, {y} was released")
+    # Make this so we can call the loop multiple times and collapse the loops when we're done
+    # Enables reloading the config from a button
+    return result
 
 def loadButtonYaml(fname='buttons.yaml'):
     buttonXY = [[ None for y in range(9) ] for x in range(9) ]
