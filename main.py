@@ -32,11 +32,11 @@ def buttonLoop(buttons, lp):
                 lp.LedCtrlXY(x, y, 3, 3)
                 print(f"Button at {x}, {y} was pressed")
                 if b:
-                    result = eval('actions.act' + b['actionPress'] + '()')
+                    result = getattr(actions, b['actionPress'])()
             else:
                 if b:
                     lp.LedCtrlXY(x, y, b['color'][0], b['color'][1])
-                    result = eval('actions.act' + b['actionRelease'] + '()')
+                    result = getattr(actions, b['actionRelease'])()
                 else:
                     lp.LedCtrlXY(x, y, 0, 0)
                 print(f"Button at {x}, {y} was released")

@@ -1,126 +1,126 @@
 -
   name: Exit
-  actionPress: None
-  actionRelease: Exit
+  actionPress: actNone
+  actionRelease: actExit
   x: 0
   y: 0
-  color: [2,0]
+  color: [3,0]
 -
   name: Exit2
-  actionPress: None
-  actionRelease: Exit
+  actionPress: actNone
+  actionRelease: actExit
   x: 0
   y: 8
   color: [0,3]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 0
   y: 1
   color: [0,0]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 0
   y: 2
   color: [1,0]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 0
   y: 3
   color: [2,0]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 0
   y: 4
   color: [3,0]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 1
   y: 1
   color: [0,1]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 1
   y: 2
   color: [1,1]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 1
   y: 3
   color: [2,1]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 1
   y: 4
   color: [3,1]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 2
   y: 1
   color: [0,2]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 2
   y: 2
   color: [1,2]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 2
   y: 3
   color: [2,2]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 2
   y: 4
   color: [3,2]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 3
   y: 1
   color: [0,3]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 3
   y: 2
   color: [1,3]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 3
   y: 3
   color: [2,3]
 -
   name: Color
-  actionPress: None
-  actionRelease: None
+  actionPress: actNone
+  actionRelease: actNone
   x: 3
   y: 4
   color: [3,3]
