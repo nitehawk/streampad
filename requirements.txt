@@ -1,0 +1,10 @@
+appdirs==1.4.4
+factories==1.2.0
+launchpad==1.0.0
+launchpad-py==0.9.1
+pygame==2.0.1
+PyYAML==5.4.1
+qute==3.0.11
+scribble==1.0.0
+toml==0.10.2
+voicemeeter==0.1
