@@ -1,8 +1,8 @@
 # Exit action
-def actExit():
+def actExit(*args):
     print("Exiting from button push")
     return False
 
 # Skipped action
-def actNone():
+def actNone(*args):
     return True
