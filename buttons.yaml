@@ -5,8 +5,8 @@
   x: 0
   y: 0
   color: [3,0]
-  downParams:
-  upParams:
+  downParams: 'f"test {x}{y}"'
+  upParams: 4,5
 -
   name: Exit2
   actionPress: actNone
@@ -14,6 +14,24 @@
   x: 0
   y: 8
   color: [0,3]
+  downParams:
+  upParams:
+-
+  name: RestartVM
+  actionPress: actVMRestart
+  actionRelease: actNone
+  x: 7
+  y: 1
+  color: [3,3]
+  downParams:
+  upParams:
+-
+  name: MuteMic
+  actionPress: actVMMute
+  actionRelease: actNone
+  x: 7
+  y: 2
+  color: [3,0]
   downParams:
   upParams:
 -

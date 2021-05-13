@@ -56,6 +56,8 @@ def loadButtonYaml(fname='buttons.yaml'):
 def main():
     buttonDict = loadButtonYaml()
     lp = openLaunchpad()
+    # This is cheating.   Maybe I'll refactor this project to make more sense later
+    actions.lp = lp
     lpSetInitialColors(buttonDict, lp)
     buttonLoop(buttonDict, lp)
     lp.Reset()
